@@ -1,0 +1,319 @@
+@media (min-width:768px){
+    body{
+        background-color: #002334;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
+    .flexbox{
+        height: auto;
+        width: auto;
+        background-color: #023047;
+        text-align: center;
+        justify-content: center;
+    }
+    .titulos{
+        color: lightcyan;
+        text-align: left;
+    }
+    .navbar{
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        z-index: 1001;
+    }
+    .nav-botones{
+        width: 100%;
+        background-color: #023047;
+        position: fixed;
+        margin-top: -20px;
+        z-index: 1001;
+    }
+    .navbar-brand{
+        color: black;
+        font-size: 40px;
+    }
+    header{
+        background-color: #023047;
+    }
+    h1{
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        color: lightcyan;
+    }
+    h3{
+        text-align: center;
+        color: #0D6EFD;
+    }
+    h5{
+        font-size: 40PX;
+        color: black;
+    }
+    .caja-carrusel{
+        width: 90%;
+        height: 638px;
+        border: 4px solid #002334;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        color: rgb(0, 0, 0);
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        justify-content: stretch;
+        width: 100%;
+        margin: auto;
+        background-color: #002334 ;
+        padding: 40px;
+    }
+    .caja{
+        background-color: lightcyan;
+        justify-content: center;
+        text-align: justify;
+        line-height: 20px;
+        margin: 10px;
+        padding: 2%;
+    }
+    .imagen-caja{
+        text-align: center;
+        margin: 15px;
+    }
+    .nav-background{
+        background-color: black;
+            height: 95px;
+            position: sticky;
+        }
+        .Contactanos{
+            background-color: #0D6EFD;
+            width: 100pw;
+            height: auto;
+            cursor: pointer;
+            font-size: 30px;
+        }
+        .Contactanos:hover{
+            background-color: #4d86dd;
+            filter: brightness(1);
+        }
+    footer{
+        width: 100%;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        padding: 2rem 8%;
+        background-color: #0D6EFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    .logo-index{
+        height: 80px;
+        margin-bottom: 1rem;
+        }
+    .icon-container, .menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        }
+    .icon{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        margin: 1rem;
+        }
+    .icon:hover{
+        background-color: lightcyan;
+        filter: brightness(2);
+    }
+    .icon:nth-of-type(1){
+        background-image: url(https://img.freepik.com/iconos-gratis/gorjeo_318-220365.jpg);
+        }
+    .icon:nth-of-type(2){
+        background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+    }
+    .icon:nth-of-type(3){
+        background-image: url(https://img.freepik.com/iconos-gratis/whatsapp_318-162854.jpg);
+    }
+    .item-menu{
+        cursor: pointer;
+        opacity: 0.6;
+        }
+    .item-menu:hover{
+        opacity: 1;
+        }
+    .copyright{
+        opacity: 0.6;
+        }
+    .copyright:hover{
+        opacity: 1;
+        }
+    .item-menu{
+        margin: 1rem;
+        }
+}
+
+@media (max-width:768px){
+    body{
+        background-color: #002334;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+    }
+    .navbar{
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        z-index: 1001;
+    }
+    .nav-botones{
+        width: 100%;
+        background-color: #023047;
+        position: fixed;
+        margin-top: -20px;
+        z-index: 1001;
+    }
+    .navbar-brand{
+        color: black;
+        font-size: 40px;
+    }
+    .slide img{
+        width: 90vw;
+        height: 30vh;
+    }
+    .caja-carrusel{
+        width: 90vw;
+        height: 30vh;
+        border: 4px solid #002334;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexbox{
+        height: auto;
+        width: auto;
+        background-color: #023047;
+        text-align: center;
+        justify-content: center;
+    }
+    .caja{
+        background-color: lightcyan;
+        justify-content: center;
+        text-align: justify;
+        line-height: 20px;
+        margin: 10px;
+        padding: 2%;
+    }
+    .imagen-caja img{
+        border-radius: 5%;
+        width: 90vw;
+        height: 200px;
+    }
+    h1{
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        color: lightcyan;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        color: #0D6EFD;
+    }
+    h5{
+        font-size: 40PX;
+        color: black;
+    }
+    .Contactanos{
+        background-color: #0D6EFD;
+        width: 100pw;
+        height: auto;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .Contactanos:hover{
+        background-color: #4d86dd;
+        filter: brightness(1);
+    }
+    footer{
+        width: 100%;
+        position: absolute;
+        margin-top: 10px;
+        left: 0;
+        padding: 2rem 8%;
+        background-color: #0D6EFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    .logo-index{
+        height: 80px;
+        margin-bottom: 1rem;
+        }
+    .icon-container, .menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        }
+    .icon{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+        margin: 1rem;
+        }
+    .icon:hover{
+        background-color: lightcyan;
+        filter: brightness(2);
+    }
+    .icon:nth-of-type(1){
+        background-image: url(https://img.freepik.com/iconos-gratis/gorjeo_318-220365.jpg);
+        }
+    
+    .icon:nth-of-type(2){
+        background-image: url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+    }
+    
+    .icon:nth-of-type(3){
+        background-image: url(https://img.freepik.com/iconos-gratis/whatsapp_318-162854.jpg);
+    }
+    
+    .item-menu{
+        cursor: pointer;
+        opacity: 0.6;
+        }
+    
+    .item-menu:hover{
+        opacity: 1;
+        }
+    
+    .copyright{
+        opacity: 0.6;
+        }
+    
+    .copyright:hover{
+        opacity: 1;
+        }
+    
+    .item-menu{
+        margin: 1rem;
+        }
+}
